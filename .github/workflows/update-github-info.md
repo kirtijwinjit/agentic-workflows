@@ -12,6 +12,7 @@ network:
   allowed:
     - defaults
     - github.blog
+    - awesome-copilot.github.com
     - github.com
 tools:
   edit:
@@ -34,8 +35,10 @@ You are updating Mona's GitHub info page from trusted sources.
 1. Read notes/mona-notes.md first to capture Mona's tone and priorities.
 2. Read repository guidance and reference files using GitHub repository API tools, not terminal/CLI/sandbox shell commands.
 3. Read external public guidance using web-fetch:
-   - https://github.blog/latest/
-   - https://github.blog/changelog/
+  - https://github.blog/latest/
+  - https://github.blog/changelog/
+  - web fetch https://awesome-copilot.github.com/workflows/
+  - https://awesome-copilot.github.com/workflows/
 4. Synthesize key updates that are relevant for Mona and avoid copy-pasting long sections.
 5. Update site/content/github-info.md with a concise, useful summary.
 6. Verify the markdown is well-structured and easy to skim.
